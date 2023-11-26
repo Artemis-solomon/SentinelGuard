@@ -1,1 +1,22 @@
+# /config/config.yaml
+
+# Log file configuration
+log_file_path: "path/to/your/logfile.log"
+
+# Anomaly detection configuration
+anomaly_threshold: 0.8  # Adjust the threshold based on your requirements
+
+# Database configuration (if applicable)
+database:
+  type: "mongodb"
+  host: "localhost"
+  port: 27017
+  username: "your_username"
+  password: "your_password"
+  database_name: "log_analysis"
+
+# Web server configuration (if applicable)
+web_server:
+  host: "127.0.0.1"
+  port: 5000
 
